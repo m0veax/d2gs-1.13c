@@ -24,22 +24,22 @@ COPY conf/d2gs.reg /home/d2gs/
 COPY conf/start.sh /home/d2gs/
 RUN winecfg
 RUN cd /home/d2gs && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2Client.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2CMP.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2Common.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2Game.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2gfx.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2Lang.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2MCPClient.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2Net.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2sound.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/D2Win.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/Fog.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.13d/Storm.dll && \
-  #wget http://cdn.pvpgn.pro/diablo2/1.13d/Patch_D2.mpq && \   
-  #wget http://cdn.pvpgn.pro/diablo2/ijl11.dll && \
-  wget http://cdn.pvpgn.pro/diablo2/1.14d/Patch_D2.mpq \
-  wget http://cdn.pvpgn.pro/diablo2/1.14d/ijl11.dll
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2Client.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2CMP.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2Common.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2Game.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2gfx.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2Lang.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2MCPClient.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2Net.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2sound.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/D2Win.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/Fog.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/Storm.dll && \
+  wget http://cdn.pvpgn.pro/diablo2/1.13c/Patch_D2.mpq && \   
+  wget http://cdn.pvpgn.pro/diablo2/ijl11.dll && \
+  #wget http://cdn.pvpgn.pro/diablo2/1.14d/Patch_D2.mpq \
+  #wget http://cdn.pvpgn.pro/diablo2/1.14d/ijl11.dll
   wget http://cdn.pvpgn.pro/diablo2/d2speech.mpq && \
   wget http://cdn.pvpgn.pro/diablo2/d2data.mpq && \
   wget http://cdn.pvpgn.pro/diablo2/d2sfx.mpq && \
