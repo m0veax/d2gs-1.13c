@@ -15,12 +15,12 @@ Set "D2CSIP" and "D2DBSIP" to server IP of docker host
 
 Build the image: 
 ```
-docker build -t d2gs:1.14d .
+docker build -t d2gs:1.13c .
 ```
 
 Run container:
 ```
-docker run -d --name d2gs --net=host d2gs:1.14d
+docker run -d --name d2gs --net=host d2gs:1.13c
 ```
 or
 ```
